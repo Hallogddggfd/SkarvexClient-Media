@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Skarvex Media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            color: #ff4040;
+            text-align: center;
+        }
+        .section {
+            border-top: 1px solid #444;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            background-color: #111;
+            color: white;
+            border: 1px solid #333;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #ff4040;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .note {
+            color: #aaa;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Skarvex Media</h1>
+
+    <p>Здравствуйте, уважаемый пользователь!<br>
+    Если вы хотите попасть в состав Skarvex Media, внимательно ознакомьтесь с критериями и заполните форму ниже.</p>
+
+    <div class="section">
+        <h2>Заявка на Media</h2>
+        <form action="https://script.google.com/macros/s/YOUR_SCRIPT_URL/exec" method="POST">
+            <label for="channel">1. Ссылка на канал:</label>
+            <input type="text" id="channel" name="channel" required>
+
+            <label for="views">2. Среднее количество просмотров:</label>
+            <input type="number" id="views" name="views" required>
+
+            <label for="videos">3. Количество видео в неделю:</label>
+            <input type="number" id="videos" name="videos" required>
+
+            <label for="telegram">4. Telegram для связи:</label>
+            <input type="text" id="telegram" name="telegram" required>
+
+            <input type="submit" value="Отправить заявку">
+        </form>
+    </div>
+
+    <div class="section">
+        <h2>Критерии</h2>
+        <p><strong>YouTube:</strong><br>
+        • От 30 подписчиков;<br>
+        • От 30–50 просмотров на последних двух видео;<br>
+        • Тематика канала: Minecraft (HVH).</p>
+
+        <p><strong>TikTok:</strong><br>
+        • От 40–50 подписчиков;<br>
+        • От 400–500 просмотров на последних двух видео;<br>
+        • Тематика канала: Minecraft (HVH).</p>
+
+        <p class="note">⚠️ Не соответствуете критериям — не подавайте заявку, чтобы не получить отказ от модерации.</p>
+    </div>
+
+    <div class="section">
+        <h2>Дополнительно</h2>
+        <p>Skarvex — это уникальный Minecraft чит-клиент с индивидуальной системой поддержки медиа-создателей. Мы ценим честность и стабильность.</p>
+        <p>Если вы приняты в медиа Skarvex клиента:</p>
+        <ul>
+            <li>Вы получите постоянную подписку на клиент;</li>
+            <li>Вы обязуетесь не снимать контент с другими читами;</li>
+            <li>В случае нарушения условий — подписка будет немедленно отозвана и вы исключаетесь из состава.</li>
+        </ul>
+        <p>Наша команда внимательно отслеживает активность участников и готова предложить индивидуальные условия самым преданным и активным медиа.</p>
+    </div>
+
+</body>
+</html>
